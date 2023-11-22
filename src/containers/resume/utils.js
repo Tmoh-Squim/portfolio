@@ -2,19 +2,19 @@ export const data = {
     experience: [
       {
         title: "Consultant",
-        subTitle: "Miami, FL",
+        subTitle: "Raesa, Rs",
         description:
           " User Experience, Visual Design",
       },
       {
-        title: "Senior Consultant",
-        subTitle: "London, UK",
+        title: "Full Stack Developer",
+        subTitle: "Fiver",
         description:
           "Web development, Databases, Backend developement",
       },
       {
         title: "Project Manager",
-        subTitle: "Bangalore, INDIA",
+        subTitle: "Kirinyaga, KENYA",
         description:
           "Creative Direction Project Management, Team Leading",
       },
@@ -22,21 +22,21 @@ export const data = {
     education: [
       {
         title: "Secondary",
-        subTitle: "ABC School",
+        subTitle: "Munyuini School",
         description:
           "10th Grade",
       },
       {
         title: "Higher Secondary",
-        subTitle: "ABC School of higher education",
+        subTitle: "Soweto School of higher education",
         description:
           "12th Grade in Science",
       },
       {
-        title: "B.Tech",
-        subTitle: "XYZ institute of technology",
+        title: "B.Softaware",
+        subTitle: "Kirinyaga university",
         description:
-          "Bachelor of technology in computer science",
+          "Bachelor of science in software engineering",
       },
     ],
   };

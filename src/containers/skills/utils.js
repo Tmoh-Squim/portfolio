@@ -8,11 +8,11 @@ export const skillsData = [
         },
         {
           skillName: "CSS",
-          percentage: "50",
+          percentage: "80",
         },
         {
           skillName: "JAVASCRIPT",
-          percentage: "80",
+          percentage: "70",
         },
       ],
     },
