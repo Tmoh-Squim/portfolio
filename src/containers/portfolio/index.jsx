@@ -18,7 +18,7 @@ const portfolioData = [
   },
   {
     id: 3,
-    name: "Notes App",
+    name: "Note App",
     link: "",
     image: ImageTwo,
   },
