@@ -14,7 +14,7 @@ const portfolioData = [
     id: 2,
     name: "Ecommerce",
     image: ImageOne,
-    link: "https://squimstech.vercel.app",
+    link: "https://spark-tech.vercel.app",
   },
   {
     id: 3,

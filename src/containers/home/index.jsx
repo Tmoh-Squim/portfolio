@@ -16,7 +16,7 @@ const Home = () => {
         <h1>
           Hello, I'm Dennis
           <br />
-          Full Stack Developer/MERN
+          Mern Stack Developer
         </h1>
       </div>
       <Animate

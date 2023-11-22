@@ -21,7 +21,7 @@ const personalDetails = [
   },
   {
     label: "Email",
-    value: "squimstech@gmail.com",
+    value: "deniskiplagat204@gmail.com",
   },
   {
     label: "Contact No",
@@ -30,7 +30,7 @@ const personalDetails = [
 ];
 
 const jobSummary =
-   'Im Dennis Kipkorir, Full stack developer/Mern. With two years of experience in web development, I have a strong command over both front-end and back-end technologies, allowing me to build complete and scalable applications.On the front-end side, I specialize in HTML, CSS, and JavaScript frameworks such as React,Tailwind css and Angular. I’m passionate about creating intuitive user interfaces that provide an exceptional user experience. I pay great attention to detail, ensuring that the websites or applications I develop are responsive, visually appealing, and accessible across different devices and browsers.Moving to the back end, I’m proficient in server-side languages like Node.js and PHP. I have extensive experience working with databases such as MySQL and MongoDB, and I can design efficient database structures and write optimized queries. I’m familiar with RESTful APIs and know how to integrate them into applications to enable seamless communication between the front end and back end.Additionally, I have expertise in version control systems like Git, and I’m comfortable working in collaborative environments using Agile methodologies.';
+   'Im Dennis Kiplagat, Full stack developer/Mern. With two years of experience in web development, I have a strong command over both front-end and back-end technologies, allowing me to build complete and scalable applications.On the front-end side, I specialize in HTML, CSS, and JavaScript frameworks such as React,Tailwind css and Angular. I’m passionate about creating intuitive user interfaces that provide an exceptional user experience. I pay great attention to detail, ensuring that the websites or applications I develop are responsive, visually appealing, and accessible across different devices and browsers.Moving to the back end, I’m proficient in server-side languages like Node.js and PHP. I have extensive experience working with databases such as MySQL and MongoDB, and I can design efficient database structures and write optimized queries. I’m familiar with RESTful APIs and know how to integrate them into applications to enable seamless communication between the front end and back end.Additionally, I have expertise in version control systems like Git, and I’m comfortable working in collaborative environments using Agile methodologies.';
 
 const About = () => {
   return (
