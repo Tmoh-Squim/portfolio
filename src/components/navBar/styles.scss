@@ -67,6 +67,7 @@
         top: 80px;
         left: -110%;
         background-color: gray;
+        z-index: 10;
         transition: all 0.5s ease;
 
         &.active{
