@@ -33,7 +33,7 @@ export const data = {
           "12th Grade in Science",
       },
       {
-        title: "B.Softaware",
+        title: "B.SWE",
         subTitle: "Kirinyaga university",
         description:
           "Bachelor of science in software engineering",
