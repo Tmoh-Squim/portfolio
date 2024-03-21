@@ -28,7 +28,7 @@ export const data = {
       },
       {
         title: "Higher Secondary",
-        subTitle: "Soweto School of higher education",
+        subTitle: "Munyuini School of higher education",
         description:
           "12th Grade in Science",
       },
