@@ -27,7 +27,7 @@ const Home = () => {
           transform: "translateY(550px)",
         }}
         end={{
-          transform: "translatex(0px)",
+          transform: "translateY(0px)",
         }}
       >
         <div className="home__contact-me">

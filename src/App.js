@@ -1,5 +1,6 @@
 import "./App.scss";
 import { Routes, Route, useLocation } from "react-router-dom";
+import {ToastContainer} from "react-toastify";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import Home from "./containers/home";
@@ -10,7 +11,7 @@ import Portfolio from "./containers/portfolio";
 import Contact from "./containers/contact";
 import Navbar from "./components/navBar";
 import particles from "./utils.js/particles";
-
+import 'react-toastify/dist/ReactToastify.css';
 function App() {
   const location = useLocation();
   console.log(location);
@@ -23,6 +24,7 @@ function App() {
 
   return (
     <div className="App">
+      <ToastContainer />
       {/* particles js */}
 
       {renderParticleJsInHomePage && (

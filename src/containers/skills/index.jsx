@@ -21,7 +21,7 @@ const Skills = () => {
               duration={1}
               delay={0.3}
               start={{
-                transform: "translateX(-200px)",
+                transform: "translateX(-400px)",
               }}
               end={{
                 transform: "translateX(0px)",

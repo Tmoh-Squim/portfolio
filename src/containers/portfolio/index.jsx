@@ -5,28 +5,27 @@ import ImageOne from "../../images/image1.jpg";
 import ImageTwo from "../../images/image2.jpg";
 import ImageThree from "../../images/image3.jpg";
 import ImageFour from "../../images/image4.jpg";
-import ImageFive from "../../images/image5.jpg";
+import ImageFive from "../../images/pexels-photo-276724.webp";
 import "./styles.scss";
 import { useState } from "react";
-
 const portfolioData = [
   {
     id: 2,
-    name: "Ecommerce",
+    name: "Multi Vendor Ecom Web",
     image: ImageOne,
-    link: "https://spark-tech.vercel.app",
+    link: "https://squimstech.vercel.app",
   },
   {
     id: 3,
-    name: "Note App",
-    link: "",
+    name: "Real time chat web",
+    link: "https://squim-wap.vercel.app",
     image: ImageTwo,
   },
   {
     id: 2,
-    name: "Supplier Design",
+    name: "Day old chick ordering system",
     image: ImageThree,
-    link: "",
+    link: "https://kenchick.vercel.app",
   },
   {
     id: 2,
@@ -37,9 +36,9 @@ const portfolioData = [
   },
   {
     id: 3,
-    name: "Shopping cart design",
+    name: "Real estate web app",
     image: ImageFive,
-    link: "",
+    link: "https://kenchick.vercel.app",
   },
 ];
 
@@ -70,16 +69,10 @@ const Portfolio = () => {
     setHoveredValue(index);
   }
 
-  console.log("====================================");
-  console.log(hoveredValue);
-  console.log("====================================");
-
   const filteredItems =
     filteredvalue === 1
       ? portfolioData
       : portfolioData.filter((item) => item.id === filteredvalue);
-
-  console.log(filteredItems);
 
   return (
     <section id="portfolio" className="portfolio">
@@ -116,7 +109,9 @@ const Portfolio = () => {
                 {index === hoveredValue && (
                   <div>
                     <p>{item.name}</p>
-                    <button>Visit</button>
+                    <a href={item?.link} target="_blank" rel="noopener noreferrer">
+                      <button>Visit</button>
+                    </a>
                   </div>
                 )}
               </div>

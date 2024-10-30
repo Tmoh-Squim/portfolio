@@ -4,7 +4,7 @@ export const skillsData = [
       data: [
         {
           skillName: "HTML",
-          percentage: "90",
+          percentage: "95",
         },
         {
           skillName: "CSS",
@@ -12,7 +12,28 @@ export const skillsData = [
         },
         {
           skillName: "JAVASCRIPT",
-          percentage: "70",
+          percentage: "95",
+        },
+        {
+          skillName: "TYPESCRIPT",
+          percentage: "80",
+        },
+      ],
+    },
+    {
+      label: "FRAME WORKS",
+      data: [
+        {
+          skillName: "REACT JS",
+          percentage: "90",
+        },
+        {
+          skillName: "NEXT JS",
+          percentage: "60",
+        },
+        {
+          skillName: "TAILWIND CSS",
+          percentage: "90",
         },
       ],
     },
@@ -21,7 +42,7 @@ export const skillsData = [
       data: [
         {
           skillName: "NODE JS",
-          percentage: "80",
+          percentage: "90",
         },
         {
           skillName: "PYTHON",
@@ -34,15 +55,28 @@ export const skillsData = [
       ],
     },
     {
+      label: "APP DEV",
+      data: [
+        {
+          skillName: "REACT NATIVE",
+          percentage: "90",
+        },
+        {
+          skillName: "FLUTTER",
+          percentage: "50",
+        },
+      ],
+    },
+    {
       label: "DATABASES",
       data: [
         {
-          skillName: "SQL",
-          percentage: "40",
-        },
-        {
           skillName: "MONGO DB",
           percentage: "80",
+        },
+        {
+          skillName: "SQL",
+          percentage: "40",
         },
         {
           skillName: "FIREBASE",
